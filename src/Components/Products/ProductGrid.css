@@ -1,0 +1,18 @@
+.product_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    position: relative;
+    border: 1px solid gray;
+}
+.add_to_cart{
+    background-color: cornflowerblue;
+    position: absolute;
+    display: none;
+    transition: display 2s;
+}
+.product_box:hover .add_to_cart{
+    display: block;
+}

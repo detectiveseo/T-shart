@@ -1,0 +1,15 @@
+.shop_page{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.shop_page_warper{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 50px;
+}
+.grid_warper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
